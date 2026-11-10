@@ -347,7 +347,7 @@ class Danfe extends DaCommon
 
     protected $title = '';
 
-    protected bool $usarLinhaTracejadaSeparacaoItens = true;
+    protected $usarLinhaTracejadaSeparacaoItens = true;
 
     public function setTitle($title)
     {
