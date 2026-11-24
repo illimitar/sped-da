@@ -94,8 +94,9 @@ class Damdfe extends DaCommon
 
     /**
      * Define se vai ou não exibir as chaves de CT-e, NF-e e MDF-e vinculadas a essa MDF-e
+     * @var bool
      */
-    protected bool $exibirDocumentosVinculados = true;
+    protected $exibirDocumentosVinculados = true;
 
     /**
      * __construct
